@@ -1,0 +1,4 @@
+Data type is a set of possible values and operations on those values.
+API is documentation that explains the operation of library methods that are intended for use by others.
+Data structure is a collection of different data types.
+ADT is a specification for a group of values and operations on those values, it is a data type whose representation is hidden from the client.
