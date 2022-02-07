@@ -4,7 +4,7 @@ public class ArrayBag implements Bag {
     public static final int DEFAULT_CAPACITY = 50;
 
     /**
-     * Create a new ArrayBag with default maximum size.
+     * Create a new bag with default maximum size.
      */
     public ArrayBag() {
         items = new Object[DEFAULT_CAPACITY];
@@ -12,7 +12,7 @@ public class ArrayBag implements Bag {
     }
 
     /**
-     * Create a new ArrayBag with specified
+     * Create a new bag with specified
      * maximum size.
      */
     public ArrayBag(int maxSize) {
@@ -32,7 +32,7 @@ public class ArrayBag implements Bag {
     }
 
     /**
-     * @return number of items in this ArrayBag
+     * @return number of items in a bag
      */
     public int getSizeOfBag() {
         return numOfItems;
