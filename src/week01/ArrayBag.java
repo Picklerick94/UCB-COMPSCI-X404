@@ -1,3 +1,5 @@
+package week01;
+
 public class ArrayBag implements Bag {
     private final Object[] items;
     private int numOfItems;
